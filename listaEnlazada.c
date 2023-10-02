@@ -22,7 +22,7 @@ void freeMemory(ListaLigada *ll);
 Nodo* findNodo(ListaLigada* ll,int indice);
 int main() {
   printf("********************\n");
-  printf("ESTAMOS EN LA RAMA MASTER\n");
+  printf("ESTAMOS EN LA RAMA master\n");
   printf("********************\n");
   ListaLigada *ll = getListLigada();
   Nodo *nodo1 = getNodo("oscar", "Reyes", 9.9, 9.9, 9.9);
