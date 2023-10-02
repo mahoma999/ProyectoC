@@ -21,6 +21,9 @@ void imprimir(ListaLigada *ll);
 void freeMemory(ListaLigada *ll);
 Nodo* findNodo(ListaLigada* ll,int indice);
 int main() {
+  printf("********************\n");
+  printf("ESTAMONJS EN LA RAMA PRUEBA1\n");
+  printf("********************\n");
   ListaLigada *ll = getListLigada();
   Nodo *nodo1 = getNodo("oscar", "Reyes", 9.9, 9.9, 9.9);
   Nodo *nodo2 = getNodo("Veronica", "Velasco", 9.9, 8.9, 8.9);
