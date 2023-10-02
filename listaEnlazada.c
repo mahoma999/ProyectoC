@@ -23,9 +23,11 @@ Nodo* findNodo(ListaLigada* ll,int indice);
 int main() {
   ListaLigada *ll = getListLigada();
   Nodo *nodo1 = getNodo("oscar", "Reyes", 9.9, 9.9, 9.9);
-  Nodo *nodo2 = getNodo("VEronica", "Velasco", 9.9, 8.9, 8.9);
+  Nodo *nodo2 = getNodo("Veronica", "Velasco", 9.9, 8.9, 8.9);
+  Nodo *nodo3 = getNodo("Aleyda", "Velasco", 9.9, 8.9, 8.9);
   add(ll, nodo1);
   add(ll, nodo2);
+  add(ll, nodo3);
   imprimir(ll);
   printf("El nodo buscado en posicion 0: %s\n",findNodo(ll,0)->name);
   printf("El nodo buscado en posicion 1: %s\n",findNodo(ll,1)->name);
